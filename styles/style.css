@@ -9,6 +9,10 @@
   font-variation-settings:
     "wdth" 100;
 }
+body{
+    margin: 0;
+    padding: 0;
+}
 /* share styles */
 .dark-black{
     color: #000000;
@@ -80,6 +84,22 @@
     color: white;
 }
 
+/* hero related style */
+.hero{
+    
+    margin-top: 108px;
+}
+.hero-title{
+    font-size: 4rem;
+    font-weight: bold;
+    max-width: 570px;
+}
+.hero-description{
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+
 
 
 
@@ -92,6 +112,12 @@
 
 
 @media screen and (max-width:576px) {
+    .hero{
+        flex-direction: column-reverse;
+    }
+    .hero-img{
+        width: 100%;
+    }
 
     .navber, .nav-links{
         flex-direction: row;
