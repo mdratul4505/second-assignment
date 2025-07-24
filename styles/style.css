@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.noto-serif-font {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* share styles */
+.dark-black{
+    color: #000000;
+}
+.light-black{
+    color: rgba(0, 0, 0, 0.5);
+}
+.orange{
+    color: #E95A08;
+}
+.display-flex{
+    display: flex;
+}
+.width{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.primary-btn{
+    background-color: #E95A08;
+    width: 270px;
+    padding: 19px 80px;
+    border: none;
+    color: white;
+    font-size: 600;
+    font-size: 1rem;
+    
+}
+.img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+
+
+
+/* nav styles */
+.navber{
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-item{
+    list-style: none;
+    margin-left: 48px;
+
+}
+.nav-link{
+    text-decoration: none;
+    color: #8987A1;
+    font-size: 1rem;
+}
+#home{
+    color: #252432;
+}
+#Cart{
+    color: #000000;
+}
+
+
+.nav-icon{
+    max-width: 135px;
+}
+.shopping-car-icon{
+    margin-left: 48px;
+}
+#cart{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+
+    .navber, .nav-links{
+        flex-direction: row;
+    }
+    .item{
+        display: none;
+    }
+    .shopping-car-icon{
+        margin-left: -20px;
+    }
+    
+}
